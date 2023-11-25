@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourey - Explore the World</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#">
+          <h1 class="logo">Tourey</h1>
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          data-nav-toggle-btn
+          aria-label="Toggle Menu"
+        >
+          <ion-icon name="menu-outline" class="open"></ion-icon>
+          <ion-icon name="close-outline" class="close"></ion-icon>
+        </button>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li>
+              <a href="./index.html" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Tours</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Destinations</a>
+            </li>
+
+            <li>
+              <a href="./privacy.html" class="navbar-link">Privacy</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <a href="#" class="btn btn-secondary">Booking Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="heading">Privacy Section</div>
+
+    <!-- 
+    - #INFORMATION
+  -->
+    <div class="information card">
+      <p style="font-weight: bold; font-size: larger">
+        How we collect your information
+      </p>
+      <ul style="margin-top: 10px; padding-left: 20px; padding-top: 5px">
+        <li>Personal preferences</li>
+        <li>Surveys</li>
+        <li>Website Activity</li>
+        <li>Purchase history</li>
+        <li>Search history</li>
+      </ul>
+    </div>
+
+    <!-- 
+    - #How we process your data
+  -->
+    <div class="information card">
+      <p style="font-weight: bold; font-size: larger">
+        How we process your information
+      </p>
+      <ul style="margin-top: 10px; padding-left: 20px; padding-top: 5px">
+        <li>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
+          maiores nobis mollitia, tenetur officiis minima vitae voluptatem
+          quasi, quod sed officia in eveniet delectus autem ipsam voluptatum
+          dignissimos esse harum?
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+          optio, tempora eaque nostrum ea provident sequi ab velit ad maxime
+          iusto. Deserunt voluptates ipsam quae nulla qui non possimus sit.
+        </li>
+        <li>lorem</li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          cumque sequi id, delectus consequuntur rerum sed laborum, maiores,
+          fugiat est veniam quis non? Amet natus labore suscipit reprehenderit
+          eos illum!
+        </li>
+      </ul>
+    </div>
+
+    <!-- 
+    - #Settings
+  -->
+    <div class="settings card" style="margin-bottom: 30px">
+      <p style="font-weight: bold; font-size: larger">
+        Control what you share with us
+      </p>
+      <div style="padding-left: 1%; padding-top: 30px">
+        <p style="display: inline; padding: 20px">Preferences</p>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div style="padding-left: 1%; padding-top: 10px">
+        <p style="display: inline; padding: 20px">
+          Personal Information - email, phone
+        </p>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div style="padding-left: 1%; padding-top: 10px">
+        <p style="display: inline; padding: 20px">Site Activity</p>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div style="padding-left: 1%; padding-top: 10px">
+        <p style="display: inline; padding: 20px">Purchase history</p>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <button class="settings-btn">Save preferences</button>
+      <div></div>
+    </div>
+  </body>
+</html>
